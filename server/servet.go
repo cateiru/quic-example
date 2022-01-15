@@ -39,7 +39,7 @@ import (
 	quic "github.com/lucas-clemente/quic-go"
 )
 
-const addr = "localhost:4242"
+const addr = "0.0.0.0:4242"
 
 // We start a server echoing data on the first stream the client opens,
 // then connect with a client, send the message, and wait for its receipt.
